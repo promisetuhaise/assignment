@@ -1,0 +1,37 @@
+
+
+#blog {
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Arial;
+    text-decoration: lowercase;
+    font-style: italic;
+    color:rgb(26, 143, 143);
+}
+#card1 {
+    margin-left:-50px;
+    position: absolute;
+    margin-top: -5px;
+}
+#card2 {
+    margin-left :554px;
+    margin-top :-30px;
+    position:absolute;
+}
+#card3 {
+    margin-top :-30px;
+    margin-left:250px;
+}
+
+.contact {
+
+    height:250px;
+    width: 250px;
+    border-radius: 10px;
+    color:gold;
+    border: 5px solid;
+    text-align: centre;
+    padding-top:50px;
+
+    
+}
