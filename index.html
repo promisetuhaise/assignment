@@ -16,6 +16,11 @@
       height: auto; /* Maintain aspect ratio */
       max-height: 100%; /* Ensure image does not exceed its container */
     }
+    /* Ensure all team images have the same height */
+    .team-img {
+      height: 300px; /* Set a specific height for uniformity */
+      object-fit: cover; /* Ensure image covers the container without distortion */
+    }
   </style>
 </head>
 <body style="background: linear-gradient(black, rgb(28,193,222));">
@@ -50,6 +55,11 @@
             <img src="ABOUT.png" class="card-img-top" alt="About" style="height: 200px;"> <!-- Set a specific height for uniformity -->
           </div>
         </a>
+        <a href="contact.html">
+          <div class="card mb-3">
+            <img src="contac.png" class="card-img-top" alt="Contact" style="height: 200px;"> <!-- Set a specific height for uniformity -->
+          </div>
+        </a>
       </div>
 
       <div class="col-sm-4">
@@ -66,11 +76,6 @@
       </div>
 
       <div class="col-sm-4">
-        <a href="contact.html">
-          <div class="card mb-3">
-            <img src="contac.png" class="card-img-top" alt="Contact" style="height: 200px;"> <!-- Set a specific height for uniformity -->
-          </div>
-        </a>
         <a href="blog3.html">
           <div class="card mb-3">
             <img src="WEEK2 SOFTWARE ENGINEERING.png" class="card-img-top" alt="Week 2 Software Engineering" style="height: 200px;"> <!-- Set a specific height for uniformity -->
@@ -84,25 +89,25 @@
       </div>
     </div>
 
-    <h1 class="text-center mb-4">OUR TEAM</h1>
+    <h1 class="text-center mb-4">OUR TUTORSHIP TEAM</h1>
     <hr>
 
     <div class="row">
       <div class="col-sm-4">
         <div class="d-flex justify-content-center">
-          <img src="Jamie-MacAlister.jpg" alt="This is a photo of Mr. Jamie, tutor of critical thinking" class="center-image mb-4" title="This is a photo of Mr. Jamie, tutor of critical thinking">
+          <img src="Jamie-MacAlister.jpg" alt="This is a photo of Mr. Jamie, tutor of critical thinking" class="center-image team-img mb-4" title="This is a photo of Mr. Jamie, tutor of critical thinking">
         </div>
       </div>
 
       <div class="col-sm-4">
         <div class="d-flex justify-content-center">
-          <img src="SAM.jpeg" alt="This is a photo of Mr. Samson Kapeyi, tutor of software engineering" class="center-image mb-4" title="This is a photo of Mr. Samson Kapeyi, tutor of software engineering">
+          <img src="SAM.jpeg" alt="This is a photo of Mr. Samson Kapeyi, tutor of software engineering" class="center-image team-img mb-4" title="This is a photo of Mr. Samson Kapeyi, tutor of software engineering">
         </div>
       </div>
 
       <div class="col-sm-4">
         <div class="d-flex justify-content-center">
-          <img src="JULIA.jpeg" alt="This is a photo of Mrs. Nasubunga Julia, leadership and personal development" class="center-image mb-4" title="This is a photo of Mrs. Nasubunga Julia, leadership and personal development">
+          <img src="JULIA.jpeg" alt="This is a photo of Mrs. Nasubunga Julia, leadership and personal development" class="center-image team-img mb-4" title="This is a photo of Mrs. Nasubunga Julia, leadership and personal development">
         </div>
       </div>
     </div>
