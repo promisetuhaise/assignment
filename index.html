@@ -6,88 +6,81 @@
   <title>PROMISE'S BLOG</title>
   <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Additional styles for centering image */
+    .center-image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%; /* Make image width 100% of its container */
+      height: auto; /* Maintain aspect ratio */
+      max-height: 100%; /* Ensure image does not exceed its container */
+    }
+  </style>
 </head>
+<body style="background: linear-gradient(black, rgb(28,193,222));">
 
-<body style=background:linear-gradient(black,rgb(28,193,222));>
-  <nav class="navbar bg-body-tertiary">
+  <nav class="navbar bg-body-tertiary" id="navba">
     <div class="container-fluid">
       <a class="navbar-brand" id="blog">Promise's blog</a>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">HOME</a>
-    <a class="navbar-brand" href="about.html">ABOUT ME</a>
-    <a class="navbar-brand" href="contact.html">CONTACTUS</a>
-   
-</nav>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">HOME</a>
+          <a class="navbar-brand" href="about.html">ABOUT ME</a>
+          <a class="navbar-brand" href="contact.html">CONTACTUS</a>
+          <a class="navbar-brand" href="blog.html">BLOG</a>
+        </div>
+      </nav>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
   </nav>
+
   <video width="auto" autoplay muted loop>
     <source src="video.mp4" type="video/mp4">
   </video>
-  <div class="col-sm-4">
-<a href="about.html">
-  <div class="card" id="card1" style="width: 18rem;">
-    <img src="image.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">ABOUT ME</h5>
-      <p class="card-text">
-    </div>
-    
-    
-    <!--<div class="card-body">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a> -->
-    </div>
-  </div></a>
-  </body>div>
-  <a href="about.html">
-    <div class="card" id="card2" style="width: 18rem;">
-      <img src="image.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">WEEK 1</h5>
-        <p class="card-text">
-      </div>
-      
-      <!--<div class="card-body">
-       "#" class="card-link">Another link</a> 
-      </div> -->
-    </div></a>
-    <a href="about.html">
+
+  <div class="container mt-4">
+    <div class="row">
       <div class="col-sm-4">
-      <div class="card" id="card3" style="width: 18rem;">
-        <img src="image.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">WEEK2</h5>
-          <p class="card-text">
-        </div>
-        <div class="card mx-auto" style="width: 50%;"></div>
-        <!--<div class="card-body">
-         
-          <a href="#" class="card-link">Another link</a> -->
-          <div class="container text-center">
-            <div class="row align-items-start">
-            </div>
-              
-                
-          
-              
-              
-            
+        <a href="about.html">
+          <div class="card mb-3">
+            <img src="ABOUT.png" class="card-img-top" alt="..." style="height: 200px;"> <!-- Set a specific height for uniformity -->
           </div>
+        </a>
+        <a href="about.html">
+          <div class="card mb-3">
+            <img src="WEEK1 LEADERSHIP.png" class="card-img-top" alt="..." style="height: 200px;"> <!-- Set a specific height for uniformity -->
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-4">
+        <a href="about.html">
+          <div class="card mb-3">
+            <img src="WEEK2 LEADERSHIP.png" class="card-img-top" alt="..." style="height: 200px;"> <!-- Set a specific height for uniformity -->
+          </div>
+        </a>
+        <a href="about.html">
+          <div class="card mb-3">
+            <img src="WEEK1 SOFTWARE ENGINEERING.png" class="card-img-top" alt="..." style="height: 200px;"> <!-- Set a specific height for uniformity -->
+          </div>
+        </a>
+      </div>
+
+      <div class="col-sm-4">
+        <h1 class="text-center mb-4">OUR TEAM</h1>
+        <div class="d-flex justify-content-center">
+          <img src="Jamie-MacAlister.jpg" alt="" class="center-image mb-4">
         </div>
-      </div></a>
-      <p style>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptatem numquam, consequuntur reprehenderit eaque amet laudantium a hic et nisi, dolorum eius! Ullam deleniti repudiandae inventore amet sapiente voluptate distinctio</p>
-    
+        <div class="d-flex justify-content-center">
+          <img src="Jamie-MacAlister.jpg" alt="" class="center-image">
+        </div>
+      </div>
+    </div>
+  </div>
 
-
-
-  
-
-
-  
 </body>
 </html>

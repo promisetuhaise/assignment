@@ -21,6 +21,7 @@
 #card3 {
     margin-top :-30px;
     margin-left:250px;
+    
 }
 
 .contact {
@@ -33,5 +34,31 @@
     text-align: centre;
     padding-top:50px;
 
-    
 }
+
+    #navba{
+        background-color: blue;
+}
+#card4 {
+    margin: left 300px;
+    margin: top 400px;
+    justify-content: center;
+}
+card:link{
+    color:black;
+}
+card:hover {
+    color:grey;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px; 
+    margin-top:20px;
+
+}
+
+
+
