@@ -55,10 +55,90 @@ card:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 250px; 
-    margin-top:20px;
+    width: 100%; 
+    height: auto; 
+    max-height: 100%;
+  }
+  #navba {
+    background-color: green;
+    color: white; 
 
+    top: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  
+    .navbar-brand {
+        color: green;
+      }
+      .form-control {
+        border-color: black; 
+      }
+      .btn-outline-success {
+        color: white;
+        border-color: green; 
+      }
+
+a:hover {
+    color: black;
+}
+ 
+ #footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    position: absolute;
+    margin-bottom: 0;
+    width: 1000px;
+ }
+ .card mb-3r :hover{
+    background-color: #f0f0f0; 
+    transition: background-color 0.3s ease; 
+  }
+  #image{
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .dropdown-menu dropdown-fullscreen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; 
+    max-width: 600px; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .form-control {
+    border-color: white;
 }
 
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
 
+.contact {
+    padding: 50px;
+    color: white;
+}
 
+.contact div {
+    margin-bottom: 20px;
+}
+
+.col-sm-6 {
+    background-color: grey;
+    padding: 50px;
+    color: white;
+}
+
+.btn-primary {
+    background-color: green;
+    border-color: green;
+}
