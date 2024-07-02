@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: linear-gradient(black, rgb(28,193,222));
+            background-attachment: fixed;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <body style="background:linear-gradient(black,rgb(28,193,222));background-attachment:fixed;">
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
             <a class="navbar-brand" id="blog">Promise's blog</a>
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">HOME</a>
-          <a class="navbar-brand" href="about.html">ABOUT ME</a>
-          <a class="navbar-brand" href="contact.html">CONTACTUS</a>
-         
-      </nav>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">HOME</a>
+                    <a class="navbar-brand" href="about.html">ABOUT ME</a>
+                    <a class="navbar-brand" href="contact.html">CONTACT US</a>
+                </div>
+            </nav>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-          </div>
-        </nav>
-   <img src="WEEK1 SOFTWARE ENGINEERING.png" alt="" width="800px">
-   <a href="index.html" target="_blank">
-    <button style="text-align: center;color:gold;align-content: center;">
-        go back to home page
-    </button></a>
-
-
+        </div>
+    </nav>
+    
+    <div class="container mt-4 text-center">
+        <img src="WEEK1 SOFTWARE ENGINEERING.png" alt="Week 1 Software Engineering">
+        <div class="mt-4">
+            <a href="index.html" target="_blank">
+                <button style="color: gold;">Go back to home page</button>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
